@@ -73,7 +73,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 - Website [your-website.com](https://{your-web-site-link})
 - GitHub [@Fiewor](https://{github.com/Fiewor})
 - Twitter [@the21st_pilot](https://{twitter.com/the21st_pilot})
-=======
+
 # 404-Error-Page-Challenge
 A simple 404 error page as project 1 of dev challenges Responsive Web Developer challenge
->>>>>>> 8e9899d696051ea563df0b5c62821f69ca4766a5
