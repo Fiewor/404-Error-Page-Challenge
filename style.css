@@ -27,7 +27,8 @@ img {
 
 main div {
     position: absolute;
-    right: 2em;
+    width: 55%;
+    right: 0;
     top: 12em;
     bottom: 0;
 }
@@ -37,6 +38,7 @@ main div h2 {
 }
 
 main div p {
+    width: 40%;
     font-size: 1.2em;
 }
 
@@ -65,36 +67,47 @@ footer a {
     text-decoration: none;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
     body {
         position: relative;
+    }
+
+    h1 {
+        margin: 0;
+        font-size: 1rem;
+        top: 0.4em;
+        left: 0;
     }
 
     img {
         /* display: block; */
         position: absolute;
-        top: 8em;
+        top: 4em;
         left: 0;
         width: 100%;
     }
     
     main div {
         position: absolute;
-        top: 25em;
-        margin: 1em;
+        top: 22em;
+        margin: 0 auto;
+        width: 100%;
     }
     
     main div h2 {
-        font-size: 2em;
+        top: 0;
+        font-size: 1.6em;
+        margin: 0;
     }
     
     main div p {
-        font-size: 1.2em;
+        font-size: 1em;
+        width: 100%;
     }
 
     #button {
         margin-top: 0;
-        padding: 10px;
+        padding: 20px;
     }
 
     footer {
